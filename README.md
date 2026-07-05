@@ -6,10 +6,10 @@
 - Click on Launch Instance from AWS home page
 - At the top name your instance something sensible that makes it clear that you're the owner of the notifies you and others of its purpose `<name-group-purpose>` is a decent naming scheme
 - For the AMI select "Ubuntu Server 24.x LTS"
-![[AMI Selection.png]]
+![AMI Selection](https://github.com/AdewuyiAdebusuyi-Sparta/flask-app-deployment/blob/main/AMI%20Selection.png)
 - For instance type select t3.micro
 - If you don't already have a key generated, create a new key pair, download it and keep it in a safe directory you won't forget about (a folder named .ssh at your root profile directory is a fine place)
-![[Network Settings.png]]
+![Network Settings](https://github.com/AdewuyiAdebusuyi-Sparta/flask-app-deployment/blob/main/Network%20Settings.png)
 - Create a new security group that allows SSH traffic from Your IP (select "My IP" from the dropdown to autofill), we will add the rest of the rules later, name it according to its owner and purpose.
 - You can now click launch instance
 - Once your instance is running, make note of the public ipv4 address, we will use this to connect to our instance
